@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+        }
+    
+        th, td {
+            width: 50%;
+            text-align: left;
+            padding: 4px;
+            
+        }
+    
+        th {
+            background-color: #f2f2f2;
+            
+        }
+    
+        input[type="number"] {
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            width: 75%;
+            font-size: 10px;
+            margin-bottom: 2px;
+        }
+    
+        button {
+            background-color: blue;
+            border: none;
+            color: white;
+            padding: 8px 12px; 
+            font-size: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+        button:hover {
+            background-color: rebeccapurple;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Slot Vacancy</h1>
+    <div id="results" data-key="bunkKey">
+        <table>
+            <thead>
+                <tr>
+                    <th>available no of slots:</th>
+                    <td id="slotCount"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="NoOfSlots">Enter no of slots you want</label>
+                        <input type="number" id="reqSlots"> 
+                    </td>
+                </tr>
+                                    
+                <tr>
+                    <td>
+                <button onclick="onBook()">Book</button>
+                    </td>
+                </tr>
+            </thead>
+        </table> 
+    </div>
+
+  <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-database-compat.js"></script>
+  <script src="slot_vacancy.js"></script>
+</body>
+</html>

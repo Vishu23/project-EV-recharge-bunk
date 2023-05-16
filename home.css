@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  width: 100%;
+  
+   background-color: lightgray;
+
+}
+nav {
+   display: flex;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    padding: 20px;
+}
+
+nav .active {
+    background-color: yellow;
+}
+
+
+/* Change the color of links on hover */
+ nav a:hover {
+  background-color: #ddd;
+  color: black;
+} 
+
+img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio:16/6.8;
+}
+#logout {
+  margin-left: 650px;
+  background-color: gray;
+ 
+}

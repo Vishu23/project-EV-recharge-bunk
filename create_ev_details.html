@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles\create_ev_details_css.css">
+    <link rel="stylesheet" href="Styles\home.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+</head>
+<body>
+    <nav>
+		<a href="#" class="active">Create Details</a>
+		<a href="manage_bunk_details.html">Manage Bunk</a>
+		<a href="manage_recharge_slots.html">Manage Recharge Slots</a>
+        <a href="home.html" id="logout">LOGOUT</a>
+	</nav>
+    <div class="ev-details">
+        <div class="form" id="form">
+            <h1>Create EV bunk</h1>
+            <form action="">
+                <label for="bunk-location">Bunk location</label>
+                <input type="text" name="bunk-location" id="bunk-location">
+                
+                <label for="bunk-area">Bunk Area</label>
+                <input type="text" name="bunk-area" id="bunk-area">
+
+                <label for="NoofSlots">No of slots</label>
+                <input type="number" name="NoofSlots" id="NoofSlots">
+
+                <label for="phoneno">Mobile</label>
+                <input type="number" name="phoneno" id="phoneno">
+
+                <label for="slot-capacity">Slots Capacity</label>
+                <input type="number" name="slot-capacity" id="slot-capacity">
+
+                <label for="min-charge-time">Min charge time</label>
+                <input type="text" name="min-charge-time" id="min-charge-time">
+
+                <button type="submit" onclick="addFormData()">Add Bunk</button>
+
+
+
+            </form>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-database-compat.js"></script>
+
+
+
+    <script src="extrascript.js"></script>
+
+</body>
+</html>

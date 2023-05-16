@@ -1,0 +1,67 @@
+/* Set font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+  }
+  
+  /* Style table header */
+  thead th {
+    background-color: gray;
+    color: black;
+    padding: 12px;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 20px;
+  }
+  
+  
+  
+  /* Style form container */
+  .form {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .manage-bunk {
+    margin-top: 50px;
+    margin-left: 360px;
+    
+  }
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  /* #user {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  } */
